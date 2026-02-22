@@ -1,20 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# LeadPulse CRM
 
-# Run and deploy your AI Studio app
+A comprehensive lead management application designed for HSR Motors. Built to empower the sales team to track, qualify, and manage leads efficiently, and provide business managers with actionable insights.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1djqpnUg3AJElV4e0xkBQSl29y7SRqpNi
+- **Lead Listing & Filtering**: Quickly access and filter incoming leads from multiple channels.
+- **Lead Details & Activity**: View comprehensive lead information, status history, and interaction logs.
+- **Lead Management**: Efficiently qualify and update lead statuses in real-time.
+- **Manager Dashboard**: High-level metrics and analytics to understand lead performance.
+- **AI-Powered Insights**: Integrated with Gemini AI for smart, automated workflows.
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React, Vite, Tailwind CSS, Recharts
+- **Backend / Database**: Supabase
+- **AI**: Google GenAI (Gemini)
+- **Language**: TypeScript
 
+## Quick Start
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Configure environment variables in `.env.local` (Supabase URL, Anon Key, Gemini API Key).
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
